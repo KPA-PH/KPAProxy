@@ -15,7 +15,7 @@ I no longer worry about server downtime because I have a load balancer and a ser
 
 Additionally, I can check the server's health in real time and manage my load balancer anytime.
 
-> I'd like to let you know that I've decided to turn off email notifications to enhance my focus and productivity.
+> I've decided to turn off email notifications to enhance my focus and productivity.
 
 ## How to use it?
 
@@ -102,6 +102,15 @@ Before you run the **(shMonitor.exe)**, you must set your **(config.json)**. Ent
         - **server_ip_address** - server IP
         - **server_hostname** - HTTP and IP Address with Port only
         - **server_health_check** - http or https | You can create any path or any.html / *.extention. Be sure that the HTTP response is 200 code.
+
+# Changelog
+
+**2024-12-18**
+- Added Log client IP details
+- Added Log blocked IP details
+- Added Block/Unblock IP
+- Added Customizable 403 HTML
+- Fixed Bugs
 
 # Contact me
 
