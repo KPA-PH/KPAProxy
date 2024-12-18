@@ -41,7 +41,9 @@ You must download and install the dotnet runtime. See the download link below:
 
 [Download .Net 8 runtime (Hosting Bundle)](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-aspnetcore-8.0.1-windows-hosting-bundle-installer "Dotnet 8")
 
-# KPA-shMonitor
+# shMonitor
+
+The **shMonitor** is an essential server health monitoring solution that ensures optimal performance. It continuously checks the status of your servers, and if any of them go down, it swiftly updates the load balancer list, preventing downtime and maintaining reliability.
 
 ## How to use it?
 
