@@ -1,0 +1,33 @@
+{
+    "bind_ip": "127.0.0.1",
+    "port": 21000,
+    "channel": "9ec64c3c-897b-4955-3434-6abf80asd34",
+    "error_notify": {
+        "emails": "talkme@mail.kpa.ph",
+        "mobiles": "639605614295"
+    },
+    "hostname": "yourdomain.com",
+    "cache_root": "C:/KPA-rpNlb",
+    "servers": [
+        {
+            "name" : "my-website",
+            "health_check_time": 3,
+            "addresses": [
+                {
+                    "server_name": "my-localhost-a",
+                    "server_location": "homelab-house",
+                    "server_ip_address": "127.0.0.1",
+                    "server_hostname": "http://127.0.0.1:8000",
+                    "server_health_check": "http://127.0.0.1:8000/health"
+                },
+                {
+                    "server_name": "my-localhost-b",
+                    "server_location": "homelab-office",
+                    "server_ip_address": "127.0.0.1",
+                    "server_hostname": "http://127.0.0.1:9000",
+                    "server_health_check": "http://127.0.0.1:9000/health"
+                }
+            ]
+        }
+    ]
+}
