@@ -23,7 +23,7 @@ Download all files and save them to your preferred folder location.
 
 Then, open IIS, Site -> Add Website -> point to the folder location. 
 
-Then, could you bind the IP with a Port or use your Domain/Hostname?
+Then, bind the IP with a Port or use your Domain/Hostname.
 
 > Please remember to set the permissions.
 
@@ -48,7 +48,7 @@ Before you run the **(shMonitor.exe)**, you must set your **(config.json)**. Ent
 ```
 {
     "bind_ip": "0.0.0.0",
-    "port": 20032,
+    "port": 21000,
     "channel": "ANY-STRING-UPDATE-ME",
     "error_notify": {
         "emails": "talkme@mail.kpa.ph",
